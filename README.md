@@ -19,6 +19,7 @@ The packages from chocolatey included.
 
 #### Tools
 - [Git](https://chocolatey.org/packages/git)
+- [Sublime Text 3](https://chocolatey.org/packages/SublimeText3)
 - [AutoHotkey](https://chocolatey.org/packages/autohotkey)
 
 #### Browsers
@@ -26,15 +27,9 @@ The packages from chocolatey included.
 - [Chrome](https://chocolatey.org/packages/GoogleChrome)
 - [Chrome Canary](https://chocolatey.org/packages/GoogleChrome.Canary)
 
-#### Editors
-- [Atom](https://chocolatey.org/packages/Atom)
-- [Sublime Text 3](https://chocolatey.org/packages/SublimeText3)
-
-#### Basic Programs
-- [NotePad++](https://chocolatey.org/packages/notepadplusplus)
-
-#### Extras
-- [Sublime Text 3 Package Control](http://chocolatey.org/packages/SublimeText3.PackageControl)
+#### Environment
+- [VirtualBox](http://chocolatey.org/packages/virtualbox)
+- [Vagrant](http://chocolatey.org/packages/vagrant)
 
 ### PSGet Modules
 The PSGet modules included.

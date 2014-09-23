@@ -11,24 +11,28 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 
 # ------------- Choco Packages -------------
 
-# Packages Definition
-$tools =  @("git", "autohotkey")
-$browsers = @("Firefox", "GoogleChrome", "GoogleChrome.Canary")
-$editors = @("Atom", "SublimeText3")
-$programs = @("notepadplusplus")
-$extras = @("SublimeText3.PackageControl")
+# Git
+choco install "git"
+choco install "git-credential-winstore"
 
-# Install Packages
-foreach ($tool in $tools) { choco install $tool }
-foreach ($browser in $browsers) { choco install $browser }
-foreach ($editor in $editors) { choco install $editor }
-foreach ($program in $programs) { choco install $program }
-foreach ($extra in $extras) { choco install $extra }
- 
+# Sublime Text 3
+choco install "SublimeText3"
+choco install "SublimeText3.PackageControl"
+
+# Browsers
+choco install "Firefox"
+choco install "GoogleChrome"
+choco install "GoogleChrome.Canary"
+
+# VM
+choco install "virtualbox"
+choco install "vagrant" 
+
+# Extras
+choco install "autohotkey"
+
+
 # ------------- PSGet Modules -------------
 
-# Modules Definition
-$psModules = @("go", "posh-git")
-
-# Install Modules
-foreach ($module in $psModules) { Install-Module $module }
+Install-Module "go"
+Install-Module "posh-git"
