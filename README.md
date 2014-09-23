@@ -32,6 +32,9 @@ The packages from chocolatey included.
 #### Basic Programs
 - [NotePad++](https://chocolatey.org/packages/notepadplusplus)
 
+#### Extras
+- [Sublime Text 3 Package Control](http://chocolatey.org/packages/SublimeText3.PackageControl)
+
 ### PSGet Modules
 The PSGet modules included.
 
