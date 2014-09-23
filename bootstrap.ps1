@@ -16,12 +16,14 @@ $tools =  @("git", "autohotkey")
 $browsers = @("Firefox", "GoogleChrome", "GoogleChrome.Canary")
 $editors = @("Atom", "SublimeText3")
 $programs = @("notepadplusplus")
+$extras = @("SublimeText3.PackageControl")
 
 # Install Packages
 foreach ($tool in $tools) { choco install $tool }
 foreach ($browser in $browsers) { choco install $browser }
 foreach ($editor in $editors) { choco install $editor }
 foreach ($program in $programs) { choco install $program }
+foreach ($extra in $extras) { choco install $extra }
  
 # ------------- PSGet Modules -------------
 
