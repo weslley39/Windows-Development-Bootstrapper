@@ -7,7 +7,8 @@ An executable for setup a Windows development environment.
 
 Clone this project to your machine or simply click [here](https://github.com/lnmunhoz/Windows-Development-Bootstrapper/archive/master.zip) to download it.
 
-Open your **PowerShell as administrator** and run: `C:\path\to\project\.\bootstrap.ps1`.
+Open your **PowerShell as administrator** and copy this command `Set-ExecutionPolicy Unrestricted`.
+Now run: `C:\path\to\project\.\bootstrap.ps1` and you're done.
 
 ### Global Packages
 - [Chocolatey](https://chocolatey.org/)
