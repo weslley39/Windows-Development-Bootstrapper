@@ -36,5 +36,5 @@ The PSGet modules included.
 - [Go-Shell](https://github.com/cameronharp/Go-Shell)
 - [posh-git](https://github.com/dahlbyk/posh-git/)
 - [PSReadline](https://github.com/lzybkr/PSReadLine)
-- 
+
 More updates coming soon...
