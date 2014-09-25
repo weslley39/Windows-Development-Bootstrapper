@@ -22,7 +22,6 @@ choco install "SublimeText3.PackageControl"
 # Browsers
 choco install "Firefox"
 choco install "GoogleChrome"
-choco install "GoogleChrome.Canary"
 
 # VM
 choco install "virtualbox"
@@ -36,3 +35,4 @@ choco install "autohotkey"
 
 Install-Module "go"
 Install-Module "posh-git"
+Install-Module "PSReadline"
