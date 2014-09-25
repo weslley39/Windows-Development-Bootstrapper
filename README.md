@@ -25,7 +25,6 @@ The packages from chocolatey included.
 #### Browsers
 - [Firefox](https://chocolatey.org/packages/Firefox)
 - [Chrome](https://chocolatey.org/packages/GoogleChrome)
-- [Chrome Canary](https://chocolatey.org/packages/GoogleChrome.Canary)
 
 #### Environment
 - [VirtualBox](http://chocolatey.org/packages/virtualbox)
@@ -36,5 +35,6 @@ The PSGet modules included.
 
 - [Go-Shell](https://github.com/cameronharp/Go-Shell)
 - [posh-git](https://github.com/dahlbyk/posh-git/)
-
+- [PSReadline](https://github.com/lzybkr/PSReadLine)
+- 
 More updates coming soon...
