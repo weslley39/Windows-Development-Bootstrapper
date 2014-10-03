@@ -9,30 +9,36 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 # PSGet
 (new-object Net.WebClient).DownloadString("http://psget.net/GetPsGet.ps1") | iex
 
-# ------------- Choco Packages -------------
+# NodeJS
+choco install nodejs
+
+# NPM Packages
+npm install -g bower
+npm install -g nodemon
+npm install -g http-server
 
 # Git
-choco install "git"
-choco install "git-credential-winstore"
+choco install git
+choco install git-credential-winstore
 
 # Sublime Text 3
-choco install "SublimeText3"
-choco install "SublimeText3.PackageControl"
+choco install SublimeText3
+choco install SublimeText3.PackageControl
 
 # Browsers
-choco install "Firefox"
-choco install "GoogleChrome"
+choco install Firefox
+choco install GoogleChrome
 
 # VM
-choco install "virtualbox"
-choco install "vagrant" 
+choco install virtualbox
+choco install vagrant 
 
 # Extras
-choco install "autohotkey"
-
+choco install autohotkey
+choco install dropbox
+choco install ConEmu
 
 # ------------- PSGet Modules -------------
 
-Install-Module "go"
-Install-Module "posh-git"
-Install-Module "PSReadline"
+Install-Module go
+Install-Module posh-git
