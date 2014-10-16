@@ -1,7 +1,7 @@
 Windows-Development-Bootstrapper
 ================================
 
-An executable for setup a Windows development environment.
+An executable for setup my Windows development environment.
 
 ## Installation
 
