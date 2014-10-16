@@ -15,6 +15,7 @@ choco install nodejs
 # NPM Packages
 npm install -g bower
 npm install -g nodemon
+npm install -g karma-cli
 npm install -g http-server
 
 # Git
@@ -34,9 +35,9 @@ choco install virtualbox
 choco install vagrant 
 
 # Extras
-choco install autohotkey
-choco install dropbox
 choco install ConEmu
+choco install dropbox
+choco install autohotkey
 
 # ------------- PSGet Modules -------------
 
