@@ -13,6 +13,7 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 choco install nodejs
 
 # NPM Packages
+npm install -g yo
 npm install -g bower
 npm install -g nodemon
 npm install -g karma-cli
