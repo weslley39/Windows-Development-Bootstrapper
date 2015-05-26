@@ -21,7 +21,7 @@ npm install -g http-server
 npm install -g grunt-cli
 
 # Git
-choco install git
+choco install git.install -params '"/GitAndUnixToolsOnPath"'
 choco install git-credential-winstore
 
 # Sublime Text 3
