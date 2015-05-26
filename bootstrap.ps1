@@ -44,6 +44,9 @@ choco install autohotkey
 #Music
 choco install spotify
 
+#Zip
+choco install winrar
+
 # ------------- PSGet Modules -------------
 
 Install-Module go
