@@ -18,6 +18,7 @@ npm install -g bower
 npm install -g nodemon
 npm install -g karma-cli
 npm install -g http-server
+npm install -g grunt-cli
 
 # Git
 choco install git
@@ -36,9 +37,12 @@ choco install virtualbox
 choco install vagrant 
 
 # Extras
-choco install ConEmu
+choco install cmder
 choco install dropbox
 choco install autohotkey
+
+#Music
+choco install spotify
 
 # ------------- PSGet Modules -------------
 
